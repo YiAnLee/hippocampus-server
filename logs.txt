@@ -1,0 +1,1029 @@
+1495631559 GET    /api1/posts
+1495631640 GET    /api1/posts
+1495631642 GET    /api2/todos
+1495631645 OPTIONS/api2/todos
+1495631645 POST   /api2/todos
+1495631645 GET    /api2/todos
+1495631666 OPTIONS/api2/todos
+1495631666 POST   /api2/todos
+1495631666 GET    /api2/todos
+1495631674 OPTIONS/api2/todos
+1495631674 POST   /api2/todos
+1495631674 GET    /api2/todos
+1495631675 POST   /api2/todos/3
+1495631675 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495631677 POST   /api2/todos/3
+1495631677 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495631915 GET    /api1/posts
+1495631917 GET    /api2/todos
+1495632267 GET    /api1/posts
+1495632270 GET    /api2/todos
+1495632658 GET    /api1/posts
+1495632660 GET    /api2/todos
+1495632686 GET    /api1/posts
+1495632688 GET    /api1/posts
+1495632689 GET    /api2/todos
+1495632713 GET    /api1/posts
+1495632723 GET    /api2/todos
+1495632815 GET    /api1/posts
+1495632827 GET    /api1/posts
+1495632842 GET    /api1/posts
+1495632842 GET    /api2/todos
+1495632846 GET    /api2/todos?start=1
+1495632866 GET    /api1/posts
+1495632867 GET    /api2/todos
+1495632871 GET    /api2/todos?start=1
+1495632884 OPTIONS/api2/todos
+1495632884 POST   /api2/todos
+1495632884 GET    /api2/todos
+1495632888 POST   /api2/todos
+1495632888 GET    /api2/todos
+1495632891 OPTIONS/api2/todos
+1495632891 POST   /api2/todos
+1495632891 GET    /api2/todos
+1495632894 POST   /api2/todos
+1495632894 GET    /api2/todos
+1495632897 OPTIONS/api2/todos
+1495632897 POST   /api2/todos
+1495632897 GET    /api2/todos
+1495632902 POST   /api2/todos
+1495632902 GET    /api2/todos
+1495632902 GET    /api2/todos?start=1
+1495632964 GET    /api1/posts
+1495632969 OPTIONS/api1/posts
+1495632969 POST   /api1/posts
+1495632983 OPTIONS/api1/posts
+1495632983 POST   /api1/posts
+1495632987 POST   /api1/posts
+1495632991 OPTIONS/api1/posts
+1495632991 POST   /api1/posts
+1495632991 GET    /api1/posts?start=999992
+1495632991 GET    /api1/posts?start=999982
+1495632992 GET    /api1/posts?start=999972
+1495632992 GET    /api1/posts?start=999962
+1495632992 GET    /api1/posts?start=999952
+1495632994 GET    /api2/todos
+1495633006 GET    /api1/posts
+1495633007 GET    /api2/todos
+1495633011 GET    /api2/todos?start=1
+1495633313 OPTIONS/api2/todos
+1495633313 POST   /api2/todos
+1495633313 GET    /api2/todos
+1495633316 POST   /api2/todos
+1495633316 GET    /api2/todos
+1495633320 OPTIONS/api2/todos
+1495633320 POST   /api2/todos
+1495633320 GET    /api2/todos
+1495633325 OPTIONS/api2/todos
+1495633325 POST   /api2/todos
+1495633325 GET    /api2/todos
+1495633326 GET    /api2/todos?start=4
+1495633422 GET    /api1/posts
+1495633424 GET    /api2/todos
+1495633426 GET    /api2/todos?start=4
+1495633434 OPTIONS/api2/todos
+1495633434 POST   /api2/todos
+1495633435 GET    /api2/todos
+1495633593 POST   /api2/todos/14
+1495633593 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495633597 GET    /api2/todos
+1495633599 POST   /api2/todos/14
+1495633599 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495633693 GET    /api1/posts
+1495633699 GET    /api2/todos
+1495633700 POST   /api2/todos/14
+1495633700 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495633774 GET    /api1/posts
+1495633775 GET    /api2/todos
+1495633777 POST   /api2/todos/13
+1495633777 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495634261 GET    /api1/posts
+1495634262 GET    /api1/posts
+1495634264 GET    /api1/posts
+1495634265 GET    /api2/todos
+1495634267 POST   /api2/todos/14
+1495634267 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495634299 GET    /api1/posts
+1495634300 GET    /api2/todos
+1495634303 POST   /api2/todos/14
+1495634303 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495634449 GET    /api1/posts
+1495634451 GET    /api2/todos
+1495634452 POST   /api2/todos/14
+1495634452 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:43:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495634500 GET    /api1/posts
+1495634502 GET    /api2/todos
+1495634506 OPTIONS/api2/todos
+1495634506 POST   /api2/todos
+1495634506 GET    /api2/todos
+1495634536 GET    /api1/posts
+1495634538 GET    /api2/todos
+1495634542 OPTIONS/api2/todos
+1495634542 POST   /api2/todos
+1495634542 GET    /api2/todos
+1495634568 GET    /
+1495634568 GET    /styles/owfont-regular.min.css
+1495634568 GET    /styles/weather.css
+1495634568 GET    /vendor.bundle.js
+1495634568 GET    /index.bundle.js
+1495634569 GET    /images/w-na.png
+1495634569 GET    /api1/posts
+1495634569 GET    /images/w-na-bg.jpg
+1495634569 GET    /images/w-rain.png
+1495634570 GET    /images/w-rain-bg.jpg
+1495634570 GET    /fonts/owfont-regular.woff
+1495634570 GET    /favicon.ico
+1495634572 GET    /vendor.bundle.js.map
+1495634572 GET    /index.bundle.js.map
+1495634578 OPTIONS/api2/todos
+1495634578 POST   /api2/todos
+1495634578 GET    /api2/todos
+1495634590 OPTIONS/api2/todos
+1495634590 POST   /api2/todos
+1495634590 GET    /api2/todos
+1495634633 POST   /api2/todos/18
+1495634633 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635564 GET    /favicon.ico
+1495635571 GET    /api2/todos
+1495635571 GET    /favicon.ico
+1495635614 GET    /forecast
+1495635614 GET    /
+1495635615 GET    /api1/posts
+1495635615 GET    /favicon.ico
+1495635617 GET    /api2/todos
+1495635617 GET    /favicon.ico
+1495635620 POST   /api2/todos/18
+1495635620 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635623 POST   /api2/todos/18
+1495635623 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635624 POST   /api2/todos/18
+1495635624 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635628 POST   /api2/todos/13
+1495635628 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635630 POST   /api2/todos/14
+1495635630 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635630 POST   /api2/todos/15
+1495635630 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635631 POST   /api2/todos/16
+1495635631 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635685 POST   /api2/todos/17
+1495635685 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635887 GET    /forecast
+1495635887 GET    /
+1495635888 GET    /api1/posts
+1495635889 GET    /favicon.ico
+1495635891 GET    /api2/todos
+1495635891 GET    /favicon.ico
+1495635892 POST   /api2/todos/18
+1495635892 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635897 POST   /api2/todos/17
+1495635897 ERROR  TypeError: todoModel.accomplish is not a function
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/src/routers/todos.js:44:15
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/express/lib/router/index.js:275:10)
+1495635907 POST   /api2/todos/18
+1495635907 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636010 GET    /forecast
+1495636010 GET    /
+1495636011 GET    /api1/posts
+1495636011 GET    /favicon.ico
+1495636012 GET    /api2/todos
+1495636012 GET    /favicon.ico
+1495636013 POST   /api2/todos/18
+1495636013 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636356 POST   /api2/todos/18
+1495636356 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636356 POST   /api2/todos/18
+1495636356 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636357 POST   /api2/todos/18
+1495636357 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636357 POST   /api2/todos/18
+1495636357 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636357 POST   /api2/todos/18
+1495636357 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636358 POST   /api2/todos/18
+1495636358 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636423 POST   /api2/todos/17
+1495636423 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636441 POST   /api2/todos/17
+1495636441 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636457 POST   /api2/todos/16
+1495636457 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636472 GET    /api1/posts
+1495636474 GET    /api1/posts
+1495636476 GET    /api2/todos
+1495636481 POST   /api2/todos/17
+1495636481 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636490 POST   /api2/todos/13
+1495636490 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636515 POST   /api2/todos/18
+1495636515 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636521 POST   /api2/todos/18
+1495636521 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636542 POST   /api2/todos/17
+1495636542 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636708 GET    /api1/posts
+1495636709 GET    /api2/todos
+1495636710 POST   /api2/todos/18
+1495636710 ERROR  error: syntax error at or near ")"
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636724 POST   /api2/todos/17
+1495636724 ERROR  error: column "donets" of relation "todos" does not exist
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495636759 GET    /api1/posts
+1495636760 GET    /api2/todos
+1495636761 POST   /api2/todos/18
+1495636761 GET    /api2/todos
+1495636764 POST   /api2/todos/17
+1495636764 GET    /api2/todos
+1495636765 POST   /api2/todos/15
+1495636765 GET    /api2/todos
+1495636769 POST   /api2/todos/13
+1495636769 GET    /api2/todos
+1495636770 GET    /api2/todos?start=9
+1495636879 POST   /api2/todos/12
+1495636879 GET    /api2/todos
+1495636882 POST   /api2/todos/9
+1495636882 GET    /api2/todos
+1495636893 OPTIONS/api2/todos
+1495636893 POST   /api2/todos
+1495636894 GET    /api2/todos
+1495636903 OPTIONS/api2/todos
+1495636903 POST   /api2/todos
+1495636903 GET    /api2/todos
+1495636908 POST   /api2/todos
+1495636908 GET    /api2/todos
+1495636911 OPTIONS/api2/todos
+1495636911 POST   /api2/todos
+1495636911 GET    /api2/todos
+1495636930 OPTIONS/api2/todos
+1495636930 POST   /api2/todos
+1495636930 GET    /api2/todos
+1495637108 GET    /api1/posts
+1495637110 GET    /api2/todos
+1495637111 POST   /api2/todos/23
+1495637111 GET    /api2/todos
+1495637112 POST   /api2/todos/20
+1495637112 GET    /api2/todos
+1495637117 OPTIONS/api2/todos
+1495637117 POST   /api2/todos
+1495637117 GET    /api2/todos
+1495637503 GET    /api1/posts
+1495637510 GET    /api2/todos
+1495637513 OPTIONS/api2/todos
+1495637513 POST   /api2/todos
+1495637513 GET    /api2/todos
+1495637514 POST   /api2/todos/25
+1495637514 GET    /api2/todos
+1495637515 GET    /api2/todos?start=16
+1495637540 GET    /api1/posts
+1495637540 GET    /api1/posts?start=999996
+1495637541 GET    /api1/posts?start=999986
+1495637541 GET    /api1/posts?start=999976
+1495637541 GET    /api1/posts?start=999966
+1495637542 GET    /api1/posts?start=999956
+1495637544 GET    /api2/todos
+1495637637 GET    /api1/posts
+1495637637 GET    /api2/todos
+1495637644 GET    /api2/todos?start=16
+1495637701 POST   /api2/todos/19
+1495637701 GET    /api2/todos
+1495637767 GET    /api1/posts
+1495637769 GET    /api1/posts
+1495637770 GET    /api2/todos
+1495637771 GET    /api2/todos?start=16
+1495637941 GET    /api2/todos
+1495637944 GET    /api2/todos
+1495637945 GET    /api2/todos
+1495637945 GET    /api2/todos
+1495637946 GET    /api2/todos
+1495637947 GET    /api2/todos
+1495638733 GET    /api1/posts
+1495638735 GET    /api2/todos
+1495639119 GET    /api1/posts
+1495639121 GET    /api1/posts
+1495639134 GET    /api1/posts
+1495639135 GET    /api2/todos
+1495639137 GET    /api2/todos?unaccomplishedOnly=true
+1495639137 ERROR  error: column "donets" does not exist
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495639138 GET    /api2/todos
+1495639141 GET    /api2/todos?unaccomplishedOnly=true
+1495639141 ERROR  error: column "donets" does not exist
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495639142 GET    /api2/todos
+1495639144 GET    /api2/todos?unaccomplishedOnly=true
+1495639144 ERROR  error: column "donets" does not exist
+    at Connection.parseE (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/mac/workspace/as3-weathermood-todo/as3-server/node_modules/pg/lib/connection.js:105:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+1495639172 GET    /api1/posts
+1495639173 GET    /api1/posts
+1495639174 GET    /api2/todos
+1495639177 GET    /api2/todos?unaccomplishedOnly=true
+1495639179 GET    /api2/todos?unaccomplishedOnly=true&start=6
+1495639181 GET    /api2/todos
+1495639182 GET    /api2/todos?unaccomplishedOnly=true
+1495639183 GET    /api2/todos
+1495639186 GET    /api2/todos?unaccomplishedOnly=true
+1495639187 GET    /api2/todos?unaccomplishedOnly=true&start=6
+1495639188 GET    /api2/todos?unaccomplishedOnly=true&start=1
+1495639190 GET    /api2/todos
+1495639196 GET    /api2/todos?unaccomplishedOnly=true
+1495639197 GET    /api2/todos
+1495639197 GET    /api2/todos?unaccomplishedOnly=true
+1495639198 GET    /api2/todos
+1495639303 POST   /api2/todos/24
+1495639304 GET    /api2/todos
+1495639859 GET    /api1/posts
+1495639860 GET    /api2/todos
+1495639865 GET    /api2/todos?searchText=222
+1495639868 GET    /api2/todos?searchText=1
+1495639869 GET    /api2/todos?searchText=1&start=15
+1495639873 GET    /api2/todos?unaccomplishedOnly=true&searchText=1
+1495639875 GET    /api2/todos?searchText=1
+1495639889 GET    /api2/todos
+1495639899 GET    /api2/todos?unaccomplishedOnly=true
+1495639903 GET    /api2/todos
+1495639913 OPTIONS/api2/todos
+1495639913 POST   /api2/todos
+1495639913 GET    /api2/todos
+1495639917 POST   /api2/todos
+1495639917 GET    /api2/todos
+1495639924 OPTIONS/api2/todos
+1495639924 POST   /api2/todos
+1495639924 GET    /api2/todos
+1495639930 GET    /api1/posts
+1495639932 GET    /api2/todos
+1495639938 GET    /api2/todos?start=19
+1495639938 GET    /api2/todos?start=9
+1495639939 GET    /api2/todos?start=1
+1495639946 OPTIONS/api2/todos
+1495639946 POST   /api2/todos
+1495639946 GET    /api2/todos
+1495639952 OPTIONS/api2/todos
+1495639952 POST   /api2/todos
+1495639952 GET    /api2/todos
+1495640023 GET    /api1/posts
+1495640023 GET    /api2/todos
+1495640025 GET    /api2/todos?start=21
+1495640025 GET    /api2/todos?start=11
+1495640025 GET    /api2/todos?start=1
+1495640069 OPTIONS/api2/todos
+1495640069 POST   /api2/todos
+1495640069 GET    /api2/todos
+1495640075 GET    /api1/posts
+1495640075 GET    /api1/posts?start=999996
+1495640076 GET    /api1/posts?start=999986
+1495640076 GET    /api1/posts?start=999976
+1495640076 GET    /api1/posts?start=999966
+1495640080 OPTIONS/api1/posts
+1495640080 POST   /api1/posts
+1495640082 GET    /api1/posts?start=999956
+1495640082 GET    /api1/posts?start=999946
+1495640083 GET    /api1/posts?start=999936
+1495640083 GET    /api1/posts?start=999926
+1495640083 GET    /api1/posts?start=999916
+1495640084 GET    /api1/posts?start=999906
+1495640088 GET    /api1/posts?start=999896
+1495640088 GET    /api1/posts?start=999886
+1495640088 GET    /api1/posts?start=999876
+1495640088 GET    /api1/posts?start=999866
+1495640089 GET    /api1/posts?start=999856
+1495640197 GET    /api1/posts
+1495640198 GET    /api2/todos
+1495640200 GET    /api2/todos?start=22
+1495640200 GET    /api2/todos?start=12
+1495640200 GET    /api2/todos?start=2
+1495640200 GET    /api2/todos?start=1
+1495640204 OPTIONS/api2/todos
+1495640204 POST   /api2/todos
+1495640204 GET    /api2/todos
+1495640211 GET    /api1/posts
+1495640443 GET    /api1/posts
+1495640445 GET    /api2/todos
+1495640447 GET    /api2/todos?start=23
+1495640447 GET    /api2/todos?start=13
+1495640447 GET    /api2/todos?start=3
+1495640447 GET    /api2/todos?start=1
+1495640628 GET    /api1/posts
+1495640629 GET    /api2/todos
+1495640630 GET    /api2/todos?start=23
+1495640630 GET    /api2/todos?start=13
+1495640630 GET    /api2/todos?start=3
+1495640630 GET    /api2/todos?start=1
+1495640687 GET    /api1/posts
+1495640688 GET    /api2/todos
+1495640689 GET    /api2/todos?start=23
+1495640689 GET    /api2/todos?start=13
+1495640690 GET    /api2/todos?start=3
+1495640690 GET    /api2/todos?start=1
+1495640704 GET    /api1/posts
+1495640707 GET    /api1/posts?start=999997
+1495640710 GET    /api1/posts?start=999987
+1495640711 GET    /api1/posts?start=999977
+1495640711 GET    /api1/posts?start=999967
+1495640714 GET    /api1/posts?start=999957
+1495640714 GET    /api1/posts?start=999947
+1495640714 GET    /api1/posts?start=999937
+1495640720 GET    /api2/todos
+1495640728 GET    /api2/todos?start=23
+1495640879 OPTIONS/api2/todos
+1495640879 POST   /api2/todos
+1495640879 GET    /api2/todos
+1495640883 GET    /api2/todos?start=24
+1495640884 GET    /api2/todos?start=14
+1495640885 GET    /api2/todos?start=4
+1495640885 GET    /api2/todos?start=1
+1495640896 OPTIONS/api2/todos
+1495640896 POST   /api2/todos
+1495640896 GET    /api2/todos
+1495640897 GET    /api2/todos?start=25
+1495640897 GET    /api2/todos?start=15
+1495640898 GET    /api2/todos?start=5
+1495640898 GET    /api2/todos?start=1
+1495640909 OPTIONS/api2/todos
+1495640909 POST   /api2/todos
+1495640909 GET    /api2/todos
+1495640910 GET    /api2/todos?start=26
+1495640911 GET    /api2/todos?start=16
+1495640912 GET    /api2/todos?start=6
+1495640912 GET    /api2/todos?start=1
+1495640919 OPTIONS/api2/todos
+1495640919 POST   /api2/todos
+1495640919 GET    /api2/todos
+1495640920 GET    /api2/todos?start=27
+1495640920 GET    /api2/todos?start=17
+1495640921 GET    /api2/todos?start=7
+1495640921 GET    /api2/todos?start=1
+1495640972 GET    /api2/todos?unaccomplishedOnly=true
+1495640973 GET    /api2/todos?unaccomplishedOnly=true&start=27
+1495640974 GET    /api2/todos?unaccomplishedOnly=true&start=6
+1495640974 GET    /api2/todos?unaccomplishedOnly=true&start=1
+1495640977 GET    /api2/todos
+1495640978 GET    /api2/todos?start=27
+1495640978 GET    /api2/todos?start=17
+1495640981 POST   /api2/todos/36
+1495640981 GET    /api2/todos
+1495640981 GET    /api2/todos?start=27
+1495640982 GET    /api2/todos?start=17
+1495640982 GET    /api2/todos?start=7
+1495640983 GET    /api2/todos?start=1
+1495640985 GET    /api2/todos?unaccomplishedOnly=true
+1495640986 GET    /api2/todos?unaccomplishedOnly=true&start=26
+1495640987 GET    /api2/todos?unaccomplishedOnly=true&start=5
+1495640987 GET    /api2/todos?unaccomplishedOnly=true&start=1
+1495640991 GET    /api2/todos
+1495640991 GET    /api2/todos?start=27
+1495640993 GET    /api2/todos?start=17
+1495640994 GET    /api2/todos?start=7
+1495640994 GET    /api2/todos?start=1
+1495641005 GET    /api1/posts
+1495641007 GET    /api2/todos
+1495641008 GET    /api2/todos?start=27
+1495641008 GET    /api2/todos?start=17
+1495641008 GET    /api2/todos?start=7
+1495641008 GET    /api2/todos?start=1
+1495641015 OPTIONS/api2/todos
+1495641015 POST   /api2/todos
+1495641015 GET    /api2/todos
+1495641016 GET    /api2/todos?start=28
+1495641016 GET    /api2/todos?start=18
+1495641017 GET    /api2/todos?start=8
+1495641017 GET    /api2/todos?start=1
+1495641023 GET    /api2/todos?searchText=%E3%84%87
+1495641024 GET    /api2/todos?searchText=%E3%84%87&start=37
+1495641027 GET    /api2/todos
+1495641028 GET    /api2/todos?start=28
+1495641028 GET    /api2/todos?start=18
+1495641028 GET    /api2/todos?start=8
+1495641029 GET    /api2/todos?start=1
+1495641295 GET    /api2/todos?unaccomplishedOnly=true
+1495641295 GET    /api2/todos?unaccomplishedOnly=true&start=27
+1495641296 GET    /api2/todos?unaccomplishedOnly=true&start=6
+1495641296 GET    /api2/todos?unaccomplishedOnly=true&start=1
+1495641299 GET    /api2/todos
+1495641300 GET    /api2/todos?start=28
+1495641300 GET    /api2/todos?start=18
+1495641301 GET    /api2/todos?start=8
+1495641301 GET    /api2/todos?start=1
+1495641549 GET    /api1/posts
+1495641551 GET    /api1/posts?start=999997
+1495641551 GET    /api1/posts?start=999987
+1495641551 GET    /api1/posts?start=999977
+1495641553 GET    /api2/todos
+1495641554 GET    /api2/todos?start=28
+1495641554 GET    /api2/todos?start=18
+1495641555 GET    /api2/todos?start=8
+1495641555 GET    /api2/todos?start=1
+1495641695 GET    /api1/posts
+1495641698 GET    /api1/posts?start=999997
+1495641698 GET    /api1/posts?start=999987
+1495641698 GET    /api1/posts?start=999977
+1495641699 GET    /api1/posts?start=999967
+1495641700 GET    /api2/todos
+1495641707 OPTIONS/api2/todos
+1495641707 POST   /api2/todos
+1495641707 GET    /api2/todos
+1495641725 GET    /api2/todos?start=29
+1495641725 GET    /api2/todos?start=19
+1495641725 GET    /api2/todos?start=9
+1495641726 GET    /api2/todos?start=1
+1495641736 OPTIONS/api2/todos
+1495641736 POST   /api2/todos
+1495641736 GET    /api2/todos
+1495641737 POST   /api2/todos/39
+1495641737 GET    /api2/todos
+1495641739 GET    /api2/todos?start=30
+1495641739 GET    /api2/todos?start=20
+1495641740 GET    /api2/todos?start=10
+1495641740 GET    /api2/todos?start=1
+1495683644 GET    /api1/posts
+1495683649 GET    /api1/posts
+1495683650 GET    /api1/posts?start=999997
+1495696957 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1495696957 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1495697398 GET    /api1/posts
+1495697401 GET    /api1/posts?start=999997
+1495697404 GET    /api2/todos
+1495697405 GET    /api2/todos?start=30
+1495697405 GET    /api2/todos?start=20
+1495697422 GET    /api1/posts
+1495697448 GET    /api1/posts
+1495697454 GET    /api1/posts
+1495697464 GET    /api1/posts?start=999997
+1495697465 GET    /api1/posts?start=999987
+1495697467 GET    /api2/todos
+1495697469 GET    /api2/todos?start=30
+1495697469 GET    /api2/todos?start=20
+1495697469 GET    /api2/todos?start=10
+1495697469 GET    /api2/todos?start=1
+1495697731 GET    /api1/posts
+1495697745 GET    /api1/posts
+1495697782 GET    /api1/posts
+1495697784 GET    /api1/posts?start=999997
+1495697791 GET    /api2/todos
+1495697792 GET    /api2/todos?start=30
+1495697794 GET    /api2/todos?start=20
+1495697796 GET    /api2/todos?start=10
+1495697797 GET    /api2/todos?start=1
+1495697858 GET    /api1/posts
+1495697859 GET    /api1/posts
+1495698067 GET    /api1/posts
+1495698069 GET    /api1/posts?start=999997
+1495698070 GET    /api1/posts?start=999987
+1495698072 GET    /api1/posts?start=999977
+1495698074 GET    /api1/posts?start=999967
+1495699492 GET    /
+1495699492 GET    /styles/owfont-regular.min.css
+1495699492 GET    /styles/weather.css
+1495699492 GET    /vendor.bundle.js
+1495699492 GET    /index.bundle.js
+1495699493 GET    /images/w-na.png
+1495699493 GET    /api1/posts
+1495699493 GET    /images/w-na-bg.jpg
+1495699494 GET    /fonts/owfont-regular.woff
+1495699494 GET    /images/w-clouds.png
+1495699494 GET    /favicon.ico
+1495699494 GET    /images/w-clouds-bg.jpg
+1495700099 GET    /api1/posts
+1495700108 GET    /api1/posts
+1495700245 GET    /api1/posts
+1495700253 GET    /api1/posts
+1495700268 GET    /api1/posts
+1495701026 GET    /api1/posts
+1495701026 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1495701247 GET    /api1/posts
+1495701283 GET    /api2/todos
+1495701625 GET    /
+1495701626 GET    /styles/owfont-regular.min.css
+1495701626 GET    /styles/weather.css
+1495701626 GET    /vendor.bundle.js
+1495701626 GET    /index.bundle.js
+1495701626 GET    /vendor.bundle.js.map
+1495701626 GET    /index.bundle.js.map
+1495701626 GET    /images/w-na.png
+1495701626 GET    /images/w-na-bg.jpg
+1495701626 GET    /favicon.ico
+1495701626 GET    /images/w-clear.png
+1495701626 GET    /images/w-clear-bg.jpg
+1495701681 GET    /
+1495701682 GET    /favicon.ico
+1495701739 GET    /api1/posts
+1495701745 GET    /api2/todos
+1495701747 GET    /api2/todos?unaccomplishedOnly=true
+1495701748 GET    /api2/todos
+1495703023 GET    /api1/posts
+1495703029 GET    /api2/todos
+1495703032 GET    /api2/todos?unaccomplishedOnly=true
+1495703032 GET    /api2/todos
+1495703036 OPTIONS/api2/todos
+1495703036 POST   /api2/todos
+1495703036 GET    /api2/todos
+1495703037 GET    /api2/todos?start=31
+1495703037 GET    /api2/todos?start=21
+1495703038 GET    /api2/todos?start=11
+1495703038 GET    /api2/todos?start=1
+1497597499 GET    /
+1497597499 GET    /styles/owfont-regular.min.css
+1497597499 GET    /styles/weather.css
+1497597499 GET    /vendor.bundle.js
+1497597499 GET    /index.bundle.js
+1497597500 GET    /images/w-na.png
+1497597500 GET    /api1/posts
+1497597500 GET    /images/w-na-bg.jpg
+1497597500 GET    /images/w-rain.png
+1497597500 GET    /images/w-rain-bg.jpg
+1497597500 GET    /favicon.ico
+1497597501 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1497597504 GET    /fonts/owfont-regular.woff
+1497597507 POST   /api1/posts
+1497597507 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1497597513 POST   /api1/posts
+1497597513 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1497597516 GET    /vendor.bundle.js.map
+1497597516 GET    /index.bundle.js.map
+1497597516 GET    /bootstrap.css.map
+1497598297 GET    /api1/posts
+1497598297 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1497598301 POST   /api1/posts
+1497598301 ERROR  Error: getaddrinfo ENOTFOUND undefined undefined:5432
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+1497598303 GET    /bootstrap.css.map
+1497599177 GET    /api1/posts
+1497599180 GET    /api1/posts?start=999997
+1497599180 GET    /api1/posts?start=999987
+1497599180 GET    /api1/posts?start=999977

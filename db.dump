@@ -1,0 +1,236 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 9.6.3
+-- Dumped by pg_dump version 9.6.3
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET search_path = public, pg_catalog;
+
+DROP INDEX public.todos_idx_ts;
+DROP INDEX public.todos_idx_text;
+DROP INDEX public.posts_idx_ts;
+DROP INDEX public.posts_idx_text;
+ALTER TABLE ONLY public.todos DROP CONSTRAINT todos_pkey;
+ALTER TABLE ONLY public.posts DROP CONSTRAINT posts_pkey;
+ALTER TABLE public.todos ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.posts ALTER COLUMN id DROP DEFAULT;
+DROP SEQUENCE public.todos_id_seq;
+DROP TABLE public.todos;
+DROP SEQUENCE public.posts_id_seq;
+DROP TABLE public.posts;
+DROP TYPE public.mood;
+DROP EXTENSION pg_trgm;
+DROP EXTENSION plpgsql;
+DROP SCHEMA public;
+--
+-- Name: public; Type: SCHEMA; Schema: -; Owner: -
+--
+
+CREATE SCHEMA public;
+
+
+--
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: -
+--
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: -
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+--
+-- Name: pg_trgm; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS pg_trgm WITH SCHEMA public;
+
+
+--
+-- Name: EXTENSION pg_trgm; Type: COMMENT; Schema: -; Owner: -
+--
+
+COMMENT ON EXTENSION pg_trgm IS 'text similarity measurement and index searching based on trigrams';
+
+
+SET search_path = public, pg_catalog;
+
+--
+-- Name: mood; Type: TYPE; Schema: public; Owner: -
+--
+
+CREATE TYPE mood AS ENUM (
+    'Clear',
+    'Clouds',
+    'Drizzle',
+    'Rain',
+    'Thunder',
+    'Snow',
+    'Windy'
+);
+
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: posts; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE posts (
+    id integer NOT NULL,
+    mood mood NOT NULL,
+    text text NOT NULL,
+    ts bigint DEFAULT date_part('epoch'::text, now()) NOT NULL,
+    "clearVotes" integer DEFAULT 0 NOT NULL,
+    "cloudsVotes" integer DEFAULT 0 NOT NULL,
+    "drizzleVotes" integer DEFAULT 0 NOT NULL,
+    "rainVotes" integer DEFAULT 0 NOT NULL,
+    "thunderVotes" integer DEFAULT 0 NOT NULL,
+    "snowVotes" integer DEFAULT 0 NOT NULL,
+    "windyVotes" integer DEFAULT 0 NOT NULL
+);
+
+
+--
+-- Name: posts_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE posts_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: posts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE posts_id_seq OWNED BY posts.id;
+
+
+--
+-- Name: todos; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE todos (
+    id integer NOT NULL,
+    mood mood NOT NULL,
+    text text NOT NULL,
+    ts bigint DEFAULT date_part('epoch'::text, now()) NOT NULL,
+    "doneTs" bigint
+);
+
+
+--
+-- Name: todos_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE todos_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: todos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE todos_id_seq OWNED BY todos.id;
+
+
+--
+-- Name: posts id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY posts ALTER COLUMN id SET DEFAULT nextval('posts_id_seq'::regclass);
+
+
+--
+-- Name: todos id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY todos ALTER COLUMN id SET DEFAULT nextval('todos_id_seq'::regclass);
+
+
+--
+-- Name: posts posts_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY posts
+    ADD CONSTRAINT posts_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: todos todos_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY todos
+    ADD CONSTRAINT todos_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: posts_idx_text; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX posts_idx_text ON posts USING gin (text gin_trgm_ops);
+
+
+--
+-- Name: posts_idx_ts; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX posts_idx_ts ON posts USING btree (ts);
+
+
+--
+-- Name: todos_idx_text; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX todos_idx_text ON todos USING gin (text gin_trgm_ops);
+
+
+--
+-- Name: todos_idx_ts; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX todos_idx_ts ON todos USING btree (ts);
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: -
+--
+
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
